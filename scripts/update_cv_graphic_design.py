@@ -105,9 +105,8 @@ def build_story():
             "Graphic Designer",
             "2024 - Present",
             [
-                "Designed social media and marketing graphics for beauty, salon, and lifestyle brands (Facebook, Instagram)",
-                "Created product-focused layouts with photo compositing, retouching, and brand-consistent typography (Canva, Photoshop)",
-                "Delivered bilingual (English/Tagalog) educational and promotional assets for client campaigns",
+                "Designed social media and marketing graphics for Sangguniang Kabataan and school pubmats (Facebook, Instagram)",
+                "Created product-focused layouts with photo compositing, retouching, and brand-consistent typography (Canva)",
             ],
         )
     )
@@ -141,7 +140,7 @@ def build_story():
         "<b>Data Engineering &amp; Cloud:</b> Azure Databricks, Azure Data Factory, Azure Data Lake, Azure Logic Apps, Microsoft Azure, Data Warehousing, Big Data",
         "<b>Programming &amp; Scripting:</b> Python, PySpark, SQL",
         "<b>ETL &amp; Data Operations:</b> ETL Development, Data Pipelines, Data Quality Checks, Data Validation, Data Reconciliation.",
-        "<b>Design &amp; Creative:</b> Adobe Photoshop, Canva, Social Media Graphics, Photo Compositing, Brand Layout, Typography",
+        "<b>Design &amp; Creative:</b> Canva, Social Media Graphics, Photo Compositing, Brand Layout, Typography, Pubmat Design",
         "<b>Developer Tools:</b> Git, Visual Studio, VS Code, PyCharm, SQL Server Management Studio (SSMS)",
     ]:
         story.append(Paragraph(line, BODY))
