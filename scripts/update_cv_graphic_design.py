@@ -150,7 +150,7 @@ def build_story():
     story.extend(
         job_block(
             "ROMBLON STATE UNIVERSITY",
-            "● Bachelor of Science in Information Technology",
+            "Bachelor of Science in Information Technology",
             "July 2025",
             [],
         )
