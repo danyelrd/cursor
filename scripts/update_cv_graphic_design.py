@@ -10,8 +10,9 @@ from reportlab.lib.units import inch
 from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 SRC = Path("/home/ubuntu/.cursor/projects/workspace/uploads/Rodriguez_DI_CV_8781.pdf")
-OUT = Path("/workspace/Rodriguez_DI_CV_updated.pdf")
-OUT_UPLOAD = SRC.parent / "Rodriguez_DI_CV_updated.pdf"
+OUT = Path("/workspace/Rodriguez_DI_CV_GraphicDesign.pdf")
+OUT_LEGACY = Path("/workspace/Rodriguez_DI_CV_updated.pdf")
+OUT_UPLOAD = SRC.parent / "Rodriguez_DI_CV_GraphicDesign.pdf"
 
 PAGE_W = letter[0] - 1.1 * inch  # margins
 
@@ -105,8 +106,8 @@ def build_story():
             "Graphic Designer",
             "2024 - Present",
             [
-                "Designed social media and marketing graphics for Sangguniang Kabataan and school pubmats (Facebook, Instagram)",
-                "Created product-focused layouts with photo compositing, retouching, and brand-consistent typography (Canva)",
+                "Designed social media graphics and pubmats for Sangguniang Kabataan (SK) and school events (Facebook, Instagram)",
+                "Created layouts with photo compositing, retouching, and brand-consistent typography using Canva",
             ],
         )
     )
@@ -204,8 +205,10 @@ def main():
         bottomMargin=0.38 * inch,
     )
     doc.build(build_story())
+    OUT_LEGACY.write_bytes(OUT.read_bytes())
     OUT_UPLOAD.write_bytes(OUT.read_bytes())
     print(f"Wrote {OUT}")
+    print(f"Wrote {OUT_LEGACY}")
     print(f"Wrote {OUT_UPLOAD}")
 
 
