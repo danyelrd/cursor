@@ -1,0 +1,2 @@
+# Optional - only needed for --provider twilio
+twilio>=9.0.0,<10.0.0
