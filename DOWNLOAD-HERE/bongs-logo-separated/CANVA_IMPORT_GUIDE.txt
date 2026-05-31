@@ -1,0 +1,41 @@
+Bong's Fried Chicken House - Separated Logo Layers
+==================================================
+
+FILES
+-----
+Bongs_Logo_Layers.pdf       One layer per page (best for Canva)
+Bongs_Logo_Composite.pdf    All layers stacked on one page
+Bongs_Logo_Layers.svg       Groups stay editable in Canva
+elements/                   Individual transparent PNGs
+
+HOW TO USE IN CANVA
+-------------------
+Option A - PDF:
+  Upload Bongs_Logo_Layers.pdf. Each page is one part (circle, text,
+  chicken, flames, etc.). Stack pages aligned to rebuild the logo.
+
+Option B - SVG:
+  Upload Bongs_Logo_Layers.svg and ungroup to move each part.
+
+Option C - PNGs:
+  Upload all files from elements/ and stack in order 01 to 10.
+
+LAYER ORDER (bottom to top)
+---------------------------
+   1. Background (cream inner circle) (01-background-inner)
+   2. Sunburst glow (02-sunburst)
+   3. Large flames (behind mascot) (03-flames-large)
+   4. Outer circle and maroon ring (04-circle-outer-ring)
+   5. Chicken mascot (05-chicken-mascot)
+   6. Fried drumstick and steam (06-drumstick)
+   7. Text: BONG'S (07-text-bongs)
+   8. Text: FRIED CHICKEN HOUSE (08-text-fried-chicken-house)
+   9. Small flame icons (left and right) (09-flame-icons)
+  10. Crown icon (bottom center) (10-crown-icon)
+
+SOURCE
+------
+Procedural layers (add bongs-logo-source.png at repo root for your file)
+
+Re-export from your PNG:
+  python3 scripts/bongs_logo_layer_export.py --input your-logo.png
