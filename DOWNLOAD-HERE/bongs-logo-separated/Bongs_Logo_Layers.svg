@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="2000" height="2000" viewBox="0 0 2000 2000">
+  <g id="01-background-inner" data-name="Background (cream inner circle)">
+    <image xlink:href="elements/01-background-inner.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="02-sunburst" data-name="Sunburst glow">
+    <image xlink:href="elements/02-sunburst.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="03-flames-large" data-name="Large flames (behind mascot)">
+    <image xlink:href="elements/03-flames-large.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="04-circle-outer-ring" data-name="Outer circle and maroon ring">
+    <image xlink:href="elements/04-circle-outer-ring.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="05-chicken-mascot" data-name="Chicken mascot">
+    <image xlink:href="elements/05-chicken-mascot.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="06-drumstick" data-name="Fried drumstick and steam">
+    <image xlink:href="elements/06-drumstick.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="07-text-bongs" data-name="Text: BONG'S">
+    <image xlink:href="elements/07-text-bongs.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="08-text-fried-chicken-house" data-name="Text: FRIED CHICKEN HOUSE">
+    <image xlink:href="elements/08-text-fried-chicken-house.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="09-flame-icons" data-name="Small flame icons (left and right)">
+    <image xlink:href="elements/09-flame-icons.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+  <g id="10-crown-icon" data-name="Crown icon (bottom center)">
+    <image xlink:href="elements/10-crown-icon.png" x="0" y="0" width="2000" height="2000" />
+  </g>
+</svg>
